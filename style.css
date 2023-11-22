@@ -1,0 +1,82 @@
+:root {
+    --left-space: 48px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(Norse-Bold.otf);
+  }
+
+.main {
+    min-height: 100vh;
+    display: flex;
+}
+
+.image-section {
+    background-position: center center;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    font-family: "Norse Bold";
+    margin-top: 20vh;
+    padding: 16px 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 1rem;
+}
+
+.banner img {
+    height: 125px
+}
+
+.form-section {
+    background-color: #f9fafb;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.form-section > p {
+    font-size: 1.4rem;
+    margin-left: var(--left-space);
+    font-weight: bold;
+    max-width: 80%;
+    align-items: center;
+}
+
+.text-section p:first-child {
+    margin-top: 0;
+  }
+
+form {
+    display: block;
+    margin-left: var(--left-space);
+}
+
+.inputs-section {
+    
+}
